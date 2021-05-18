@@ -1,0 +1,364 @@
+
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .category{
+    width: auto!important;
+   
+  }
+  .banner{
+    width: auto;
+  }
+
+
+.header-slider {
+  width: auto;
+}
+  .item {
+     vertical-align: middle; 
+     display: table-cell; 
+    height: 60vh; 
+    padding: 20px 0px;
+    flex-grow: 1;
+}
+  .serial {
+    padding-left: 30px;
+}
+  .our-works {
+    background-color: #f5f5ff;
+    padding: 150px 0px;
+    width: auto;}
+    .right {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;}
+    .work-img img {
+      width: auto;
+    }
+    
+
+    .testimonial {
+    background-image: url(../img/testmonial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+    position: relative!important;
+    z-index: -9;
+}
+.about{
+  width: auto!important;
+  display: none;
+}
+.footer-top-left h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 0;
+    padding-left: 1%;
+}
+.footer-top-right h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+    .category{
+    width: auto!important;
+   
+  }
+  .banner{
+    width: auto;
+  }
+
+
+.header-slider {
+  width: auto;
+}
+ .slide-content h1{
+  font-size: 30px;
+  line-height:35px!important;
+  font-weight: 700;
+  }
+
+  .item {
+
+    height: 60vh; 
+    padding: 20px 0px;
+    flex-grow: 1;
+}
+  .cat-box {
+    display: flex;
+    flex-direction: column;
+}
+  .serial {
+    padding-left: 30px;
+}
+  .our-works {
+    background-color: #f5f5ff;
+    padding: 150px 0px;
+    width: auto!important;}
+    .right {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  text-align: center;}
+
+    .work-detail h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #001d38;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 30px!important;
+    padding-top: 40px;
+  }   .work-item .row {
+    margin-top: -270px;
+   
+    } 
+    .last{
+
+    flex-flow: column-reverse;
+    text-align: center;
+
+    }
+    .row.item-sec3{
+      flex-flow: column-reverse!important;
+      text-align: center;
+    }
+    
+    .testimonial {
+    background-image: url(../img/testmonial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    position: relative!important;
+    z-index: -9; 
+    margin: 30px 0px
+
+}     .comments-items h6 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 34px 0;
+} 
+    .single-instra {
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    text-align: center;
+    transition: .5s ease-out;
+    box-shadow: 0 10px 10px rgba(0,0,0,.5;);
+}
+
+.about{
+  width: auto!important;
+  display: none;
+}
+  .footer-body {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #334A60;
+    margin:0px;
+    }
+.footer-top-left h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+  
+    text-align: center;
+}
+
+  .footer-top-right h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-top: 30px;
+}
+  .footer-top-right h6{
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+  /* CSS */
+  .category{
+    width: auto!important;
+   
+  }
+  .banner{
+    width: auto;
+  }
+
+
+.header-slider {
+  width: auto;
+}
+ .slide-content h1{
+  font-size: 20px;
+  line-height:25px!important;
+  }
+
+  .item {
+
+    height: 60vh; 
+    padding: 20px 0px;
+    flex-grow: 1;
+}
+  .cat-box {
+    display: flex;
+    flex-direction: column;
+}
+  .serial {
+    padding-left: 30px;
+}
+  .our-works {
+    background-color: #f5f5ff;
+    padding: 150px 0px;
+    width: auto!important;}
+    .right {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  text-align: center;}
+
+    .work-detail h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #001d38;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 30px!important;
+    padding-top: 40px;
+  }   .work-item .row {
+    margin-top: -270px;
+   
+    } 
+    .last{
+
+    flex-flow: column-reverse;
+    text-align: center;
+
+    }
+    .row.item-sec3{
+      flex-flow: column-reverse!important;
+      text-align: center;
+    }
+    
+    .testimonial {
+    background-image: url(../img/testmonial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+    position: relative!important;
+    z-index: -9; 
+    margin: 30px 0px
+
+}     .comments-items h6 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    margin: 34px 0;
+}
+
+.about{
+  width: auto!important;
+  display: none;
+}
+  .footer-body {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #334A60;
+    margin:0px;
+    }
+.footer-top-left h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+  
+    text-align: center;
+}
+
+  .footer-top-right h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-top: 30px;
+}
+  .footer-top-right h6{
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+
+
+
